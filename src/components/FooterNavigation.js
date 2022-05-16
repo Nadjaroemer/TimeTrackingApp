@@ -1,15 +1,13 @@
-import { Link } from react-router;
-
 export default function FooterNavigation() {
   return (
-    <div className="flex justify-between pl-4 pr-4">
-      <Link to="/times">
+    <footer className="flex justify-around pt-5 pb-5 bg-[#F1EEE9]">
+      <div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-6 w-6"
           fill="none"
           viewBox="0 0 24 24"
-          stroke="currentColor"
+          stroke="#817F7F"
           strokeWidth="2"
         >
           <path
@@ -18,14 +16,14 @@ export default function FooterNavigation() {
             d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
           />
         </svg>
-      </Link>
+      </div>
       <div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-6 w-6"
           fill="none"
           viewBox="0 0 24 24"
-          stroke="currentColor"
+          stroke="#817F7F"
           strokeWidth="2"
         >
           <path
@@ -41,7 +39,7 @@ export default function FooterNavigation() {
           className="h-6 w-6"
           fill="none"
           viewBox="0 0 24 24"
-          stroke="currentColor"
+          stroke="#817F7F"
           strokeWidth="2"
         >
           <path
@@ -57,7 +55,7 @@ export default function FooterNavigation() {
           className="h-6 w-6"
           fill="none"
           viewBox="0 0 24 24"
-          stroke="currentColor"
+          stroke="#817F7F"
           strokeWidth="2"
         >
           <path
@@ -67,6 +65,6 @@ export default function FooterNavigation() {
           />
         </svg>
       </div>
-    </div>
+    </footer>
   );
 }
